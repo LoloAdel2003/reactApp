@@ -1,0 +1,100 @@
+{
+"PIZAA":[
+    {"title":"Margherita Pizza"
+     ,"des":"A classic Italian pizza with tomato sauce, fresh mozzarella, basil, and olive oil. Simple yet flavorful",
+
+     "price":"$100",
+     "img":"imges/piz170.avif"},
+     {"title":"Pepperoni Pizza"
+     ,"des":"A fan favorite topped with spicy pepperoni slices, gooey mozzarella cheese, and tomato sauce",
+
+     "price":"$50",
+     "img":"imges/piz1701724685602679-c99da44e9113.avif"},
+
+     {"title":"Chicken Pizza"
+     ,"des":"A smoky and sweet pizza with grilled chicken, BBQ sauce, red onions, and melted cheese",
+
+     "price":"$80",
+     "img":"imges/piz1707c749659a591.avif"},
+
+     {"title":"Cheese Pizza"
+     ,"des":"A cheesy delight made with mozzarella, parmesan, gorgonzola, and ricotta for a rich and creamy taste",
+
+     "price":"$100",
+     "img":"imges/pizza170.jpg"},
+
+     {"title":"Hawaiian Pizza"
+     ,"des":"A controversial but delicious choice with ham , pineapple, tomato sauce , and cheese cheese",
+
+     "price":"$120",
+     "img":"imges/pizaaxx2170.jpg"},
+
+     {"title":"Lover’s Pizza"
+     ,"des":"Loaded with different meats like pepperoni, sausage, bacon, ham, and beef for a hearty bite",
+
+     "price":"$70",
+     "img":"imges/pizaaxxx170.jpg"}
+
+],
+
+"CAKE":
+[ {"title":"Raspberry Almond"
+,"des":" A soft almond cake topped with fresh raspberries and a dusting of powdered sugar,powdered sugar",
+
+"price":"$100",
+"img":"imges/cake170.webp"}
+,
+{"title":"Chocolate Ganache"
+,"des":"  A rich and creamy chocolate cake covered in a smooth ganache glaze, garnished with nuts",
+
+"price":"$80",
+"img":"imges/cake1704.webp"},
+
+{"title":"Berry Delight"
+,"des":"  A light and fluffy sponge cake topped with fresh mixed berries for a refreshing taste, refreshing taste",
+
+"price":"$150",
+"img":"imges/cake1706.webp"},
+
+{"title":"Chocolate Drizzle"
+,"des":"   A crunchy and creamy layered cake drizzled with chocolate and topped with colorful candies.",
+
+"price":"$190",
+"img":"imges/cake1707.webp"},
+
+{"title":"Raspberry Charlotte"
+,"des":"   A classic French-style cake with a delicate ladyfinger crust and fresh raspberries on top.",
+
+"price":"$200",
+"img":"imges/cake1708.webp"}
+
+],
+"FISH":[
+
+    {"title":"Fresh Whole Trout"
+,"des":"    A soft almond cake topped with fresh raspberries and a dusting of powdered sugar,powdered sugar",
+
+"price":"$200",
+"img":"imges/fish1.webp"},
+
+{"title":"Salmon Fillet Cut"
+,"des":" A crunchy and creamy layered cake drizzled with chocolate and topped with colorful candies",
+
+"price":"$180",
+"img":"imges/fish4.webp"},
+
+{"title":"Silver Carp Selection"
+,"des":" A classic French-style cake with a delicate ladyfinger crust and fresh raspberries on top",
+
+"price":"$150",
+"img":"imges/fish5.webp"},
+
+{"title":"Seafood Variety Pack "
+,"des":" A classic French-style cake with a delicate ladyfinger crust and fresh raspberries on top",
+
+"price":"$170",
+"img":"imges/fish6.webp"}
+
+]
+
+}
