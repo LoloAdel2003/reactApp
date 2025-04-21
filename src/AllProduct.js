@@ -4,9 +4,8 @@ import { ProductContext } from './productContext';
 import Title from './Title';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import './ProductList.css';
-
-const ProductList = () => {
-  const { products, setSelectProduct, handelAddCart } = useContext(ProductContext);
+const AllProduct = () => {
+const { products, setSelectProduct, handelAddCart } = useContext(ProductContext);
 
   const handleClickProduct = (product) => {
     setSelectProduct(product);
@@ -16,24 +15,17 @@ const ProductList = () => {
     handelAddCart(product);
   };
 
-  const displayedProducts = products.slice(0, 6); // عرض أول 12 منتج
+//   const displayedProducts = products.slice(0, 6); // عرض أول 12 منتج
 
   return (
-    <>
-      <Title title="Menu" />
+    <div className="" >
+      <Title title="All Products" />
       <Container className="py-4">
         <Row className="g-4">
-          {displayedProducts.map((product, index) => (
+          {products.map((product, index) => (
             <Col key={product.id} xs={12} sm={6} md={6} lg={4}>
               {/* كرت "See More" في آخر عنصر */}
-              {index === 5 ? (
-
-                <Card className="seeMore shadow-sm product-card h-100 d-flex justify-content-center align-items-center"> 
-                <Link to="/AllProduct">
-                <Button className="btn-gold">Explore All Products</Button>
-              </Link>
-              </Card>
-              ) : (
+              
                 <Card className="shadow-sm product-card h-100">
                   {product.image && (
                     <Card.Img
@@ -63,13 +55,13 @@ const ProductList = () => {
                     </div>
                   </Card.Body>
                 </Card>
-              )}
+              
             </Col>
           ))}
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 
-export default ProductList;
+export default AllProduct

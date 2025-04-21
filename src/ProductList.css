@@ -1,0 +1,31 @@
+.product-card {
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .btn-gold {
+    background-color: white;
+    border: 2px solid #f6b31a;
+    color: #f6b31a;
+    font-weight: 800;
+  }
+  
+  .btn-gold:hover {
+    background-color: #f6b31a;
+    color: #fff;
+    outline: none;
+    border:none
+  }
+  
+  

@@ -12,12 +12,13 @@ import RegisterPage from './RegisterPage';
 import LoginPage from './LoginPage';
 import AuthDetails from './AuthDetails';
 import { ProductProvider } from './productContext';
+import AllProduct from './AllProduct';
 //https://www.jerry-log.com/en/aboutdetail.aspx?classid=010904
 const Layout = () => {
   return (
     <>
       <NavBar />
-      <AuthDetails />
+      {/* <AuthDetails /> */}
       <Outlet />
       <Footer />
     </>
@@ -53,6 +54,7 @@ const App = () => {
             <Route path="/cart" element={<Cart />} />
             <Route path="/RegisterPage" element={<RegisterPage />} />
             <Route path="/LoginPage" element={<LoginPage />} />
+            <Route path="/AllProduct" element ={<AllProduct /> } />
           </Route>
         </Routes>
       </ProductProvider>
