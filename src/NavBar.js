@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import Cart from './Cart'
 import RegisterPage from './RegisterPage'
@@ -10,8 +10,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./App.css"
 import { FaShoppingCart } from "react-icons/fa";
+import { ProductContext } from './productContext'
 
 const NavBar = () => {
+  const {cart}=useContext(ProductContext);
+  const ln=cart.length;
   return (
      <Navbar expand="md" className="navbar navbar-dark  pt-3 pb-3 fixed-top">
           {/* <Container> */}
@@ -30,7 +33,7 @@ const NavBar = () => {
               <Link to="/cart" className="cartIcon btn btn-outline-warning fw-bold xx mt-sm-2 me-3">
 
               <FaShoppingCart className="cartIcon fs-5 me-3 " />
-              <span> 0</span>
+              <span> {ln}</span>
 
               </Link>
               <Link to="/LoginPage" >

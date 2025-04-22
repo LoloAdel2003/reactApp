@@ -33,7 +33,7 @@ const Bannar = () => {
   return (
     <>
       {/* ✅ يظهر فقط في الشاشات الصغيرة والمتوسطة */}
-      <div className="d-lg-none land">
+      <div className="d-lg-none land" id="landing">
         <Carousel controls={false} indicators={false} data-bs-theme="dark">
           <Carousel.Item>
             <section className="bannar text-light">

@@ -1,9 +1,10 @@
 import React from 'react'
+import Title from './Title'
 
 const Contact = () => {
   return (
     <div id="Contact">
-      cont
+      <Title title="Contact Us" />
     </div>
   )
 }

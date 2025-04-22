@@ -21,8 +21,8 @@ function Footer() {
               <a href="#" className="text-light me-2"><i className="bi bi-instagram"></i></a>
             </div>
           </Col>
-          <Col md={3} sm={4}>
-            <h5>Company</h5>
+          <Col md={3} xs={4}>
+            <h6>Company</h6>
             <ul className="list-unstyled">
               <li><a href="#" className="text-light text-decoration-none">About Us</a></li>
               <li><a href="#" className="text-light text-decoration-none">Blog</a></li>
@@ -31,8 +31,8 @@ function Footer() {
               <li><a href="#" className="text-light text-decoration-none">Help Center</a></li>
             </ul>
           </Col>
-          <Col md={3} sm={4}>
-            <h5>Shop</h5>
+          <Col md={3}  xs={4}>
+            <h6>Shop</h6>
             <ul className="list-unstyled">
               <li><a href="#" className="text-light text-decoration-none">Gift Cards</a></li>
               <li><a href="#" className="text-light text-decoration-none">Our Products</a></li>
@@ -41,8 +41,8 @@ function Footer() {
               <li><a href="#" className="text-light text-decoration-none">Returns</a></li>
             </ul>
           </Col>
-          <Col md={3} sm={4}>
-            <h5>Support</h5>
+          <Col md={3}  xs={4}>
+            <h6>Support</h6>
             <ul className="list-unstyled">
               <li><a href="#" className="text-light text-decoration-none">Contact Us</a></li>
               <li><a href="#" className="text-light text-decoration-none">Payment Options</a></li>

@@ -20,7 +20,7 @@ const ProductList = () => {
 
   return (
     <>
-      <Title title="Menu" />
+      <Title title="Menu" id="Menu"/>
       <Container className="py-4">
         <Row className="g-4">
           {displayedProducts.map((product, index) => (
