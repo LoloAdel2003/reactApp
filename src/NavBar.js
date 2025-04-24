@@ -19,11 +19,14 @@ const NavBar = () => {
      <Navbar expand="md" className="navbar navbar-dark  pt-3 pb-3 fixed-top">
           {/* <Container> */}
           <div className="container-fluid">
-          <Navbar.Brand href="/#landing" className="navbar-brand text-light">Fashoin</Navbar.Brand>
+          {/* <Navbar.Brand href="/#landing" className="navbar-brand text-light"> */}
+          <HashLink to="/#landing" className="navbar-brand text-light">Fashoin</HashLink>
+
+          {/* </Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto x">
-              <Link to="/" className="a   position-relative px-4 py-2">Home</Link>
+              <Link to="/" className="a  position-relative px-4 py-2">Home</Link>
               <HashLink to="/#Category" className="a  position-relative px-4 py-2">Category</HashLink>
 
             <HashLink to="/#Menu" className="a  position-relative px-4 py-2">Menu</HashLink>

@@ -56,7 +56,7 @@ function Footer() {
         <hr className="text-light my-3" />
         <Row className="justify-content-between align-items-center">
           <Col md="auto">
-            <p className="text-muted small">Copyright © 2023 Fashion. All Rights Reserved.</p>
+            <p className="text-muted small">Copyright © 2025 Fashion. All Rights Reserved.</p>
           </Col>
           <Col md="auto">
             <ul className="list-inline mb-0">

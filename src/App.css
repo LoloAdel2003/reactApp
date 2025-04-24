@@ -20,6 +20,25 @@ box-sizing:border-box}
     scroll-behavior: smooth;
 
 }
+.btn:focus,
+  .btn:active,
+  .btn:focus:active,[type="email"]:focus,[type="password"]:focus,[type="text"]:focus,[type="message"]:focus ,[type="tel"]:focus{
+outline:none !important;
+box-shadow: none !important;
+border:1px solid var(--yellow)
+
+  }
+  .send,.send:active,.send:focus{
+   color:var(--yellow);
+   border:1px solid var(--yellow);
+   background-color:var(--color);
+   font-weight: bold;
+  }
+  .send:hover {
+   color:white
+   ;
+   background-color:var(--yellow) !important;
+  }
 
 .navbar {
     background-color:var(--color) !important;

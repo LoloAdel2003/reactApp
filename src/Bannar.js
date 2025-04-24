@@ -32,8 +32,10 @@ const features = [
 const Bannar = () => {
   return (
     <>
-      {/* ✅ يظهر فقط في الشاشات الصغيرة والمتوسطة */}
-      <div className="d-lg-none land" id="landing">
+<div id="landing">
+
+   {/* ✅ يظهر فقط في الشاشات الصغيرة والمتوسطة */}
+   <div className="d-lg-none land" >
         <Carousel controls={false} indicators={false} data-bs-theme="dark">
           <Carousel.Item>
             <section className="bannar text-light">
@@ -60,7 +62,7 @@ const Bannar = () => {
       </div>
 
       {/* ✅ يظهر فقط في الشاشات الكبيرة */}
-      <div className="d-none d-lg-block land">
+      <div className="d-none d-lg-block land" >
         <Carousel data-bs-theme="dark">
           {/* Slide 1 */}
           <Carousel.Item>
@@ -115,6 +117,9 @@ const Bannar = () => {
           </Carousel.Item>
         </Carousel>
       </div>
+</div>
+
+     
     </>
   );
 };
