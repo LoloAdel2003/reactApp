@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { ProductContext } from './productContext';
 import { Container, Row, Col, Card, Button, Spinner } from 'react-bootstrap';
 import "./ProductList.css"
+
 const ProductDetails = () => {
   const { selectProduct, handelAddCart } = useContext(ProductContext);
 
@@ -21,19 +22,24 @@ const ProductDetails = () => {
   }
 
   return (
-    <Container className="py-5" style={{ marginTop: '78px', minHeight:'calc(100vh - 78px)' }}>
+    <Container className="py-5" style={{ marginTop: '78px', minHeight: 'calc(100vh - 78px)' }}>
       <Row className="justify-content-center">
         <Col md={8}>
           <Card className="shadow-lg border-0">
             <Row className="g-0">
-              <Col md={6}>
+              <Col xs={12} md={6} className="text-center p-3">
                 <Card.Img
                   src={selectProduct.image}
                   alt={selectProduct.title}
-                  style={{ objectFit: 'cover', height: '100%' }}
+                  className="img-fluid"
+                  style={{
+                    objectFit: 'contain',
+                    maxHeight: '300px',
+                    width: '100%',
+                  }}
                 />
               </Col>
-              <Col md={6}>
+              <Col xs={12} md={6}>
                 <Card.Body>
                   <Card.Title as="h2" className="mb-4">
                     {selectProduct.title}
@@ -44,8 +50,7 @@ const ProductDetails = () => {
                   <h4 className="text-warning mb-4">Price: ${selectProduct.price}</h4>
                   <Button
                     onClick={() => handleCartProduct(selectProduct)}
-                    // style={{ backgroundColor: '#f6b31a', border: 'none' }}
-                    className="rounded-pill px-4 py-2  btn-gold"
+                    className="rounded-pill px-4 py-2 btn-gold"
                   >
                     Add To Cart
                   </Button>

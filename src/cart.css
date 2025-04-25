@@ -1,0 +1,18 @@
+.checkout ,.checkout:focus{
+    background-color:#120d09 ;
+    color :#f6b31a;
+    border:1px solid #f6b31a;
+    font-weight: bold;
+}
+.checkout:hover {
+    background-color: #f6b31a;
+    color:white;
+    border:1px solid #f6b31a;
+
+}
+.total {
+    color :#f6b31a;
+
+}
+/* --color:#120d09;
+--yellow: #f6b31a; */
