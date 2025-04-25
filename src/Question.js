@@ -49,7 +49,7 @@ const Question = () => {
         </Col>
 
         {/* القسم الأيمن: العنوان */}
-        <Col md={5} className="d-flex flex-column justify-content-center align-items-start px-4" style={{ color: '#f6b31a', borderRadius: '12px' }}>
+        <Col md={5} className="d-flex flex-column justify-content-center align-items-start px-4 d-none d-lg-flex" style={{ color: '#f6b31a', borderRadius: '12px' }}>
           <h6 className="text-uppercase text-muted">FAQ</h6>
           <h2 className="fw-bold" style={{ fontSize: '2rem', color: 'white' }}>
             Questions? Look <br /> here.
