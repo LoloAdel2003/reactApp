@@ -5,6 +5,7 @@ import ProductList from './ProductList'
 // import Deleviery from './Deleviery'
 import Contact from './Contact'
 import ProductCategories from './ProductCategories'
+import Question from './Question'
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
     <ProductList />
     {/* <Deleviery /> */}
     <Contact />
+    <Question />
 
     </>
   )
